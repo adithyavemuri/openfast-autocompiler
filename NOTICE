@@ -1,0 +1,12 @@
+OpenFAST autocompiler
+Copyright 2026 Adithya Vemuri and contributors
+
+The original build script, tests and documentation are licensed under
+Apache License, Version 2.0. This project is an independent build orchestrator;
+it is not an official OpenFAST distribution or endorsement.
+
+OpenFAST, Reference-LAPACK and CMake are downloaded from their upstream
+distributions, not bundled in this repository. Their own licenses apply to
+their sources, dependencies and generated binaries. The compiler's Apache-2.0
+license does not replace or extend those licenses. Preserve upstream notices
+when redistributing a generated source or binary installation.

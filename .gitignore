@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.log
+.venv*/
+# Generated trees belong outside this source project.
+build/
+install/
+sources/
+deps/
+release-prep/
