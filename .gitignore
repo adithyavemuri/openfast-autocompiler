@@ -8,3 +8,5 @@ install/
 sources/
 deps/
 release-prep/
+# Personal compiler and library paths stay local.
+local-settings.ini
