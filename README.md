@@ -9,6 +9,13 @@ linker changes or shell-profile edits.
 
 ## Run order
 
+Clone the standalone repository, then run the checks from its directory:
+
+```bash
+git clone https://github.com/adithyavemuri/openfast-autocompiler.git
+cd openfast-autocompiler
+```
+
 ```bash
 # 1. Read-only inspection, with a temporary numerical link/run test.
 bash build_openfast.sh --preflight
@@ -105,7 +112,7 @@ Original compiler code is licensed under [Apache-2.0](LICENSE); see [NOTICE](NOT
 for upstream authorship and licensing boundaries. Upstream source and binary
 trees are downloaded/generated locally and are not part of this repository.
 
-This directory is prepared for an independent GitHub upload. See the
-[release review](RELEASE_REVIEW.md) for verified scope and remaining limits.
+Standalone source repository: [adithyavemuri/openfast-autocompiler](https://github.com/adithyavemuri/openfast-autocompiler).
+See the [release review](RELEASE_REVIEW.md) for verified scope and remaining limits.
 FASTScale includes the same builder with an adjusted default root path so it
 can install solvers from its own clone.

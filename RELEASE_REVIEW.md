@@ -16,6 +16,18 @@ The generated installation remains subject to upstream licenses.
 - Existing system-library solver/farm simulations and the private LAPACK
   numerical checks are described in README with their actual scope.
 
+## Publication checks — 5 November 2026
+
+The staged checkout has clean Git history and contains eight source,
+documentation and test files. LICENSE/NOTICE, local README links, source/stage
+byte identity, shell syntax, and high-confidence credential patterns were checked.
+No generated installations or upstream source/binary trees are included.
+
+Using the existing local CMake, all five development tests passed. In the
+independent staged checkout, four passed and the sibling-only FASTScale copy
+check was skipped; the numerical DGESV/DGEMM check passed. No new OpenFAST,
+FAST.Farm or private-LAPACK build was run for publication.
+
 ## Limits to carry into a first release
 
 GNU/Linux is the supported platform. Host C/C++/Fortran compilers and Python
@@ -24,8 +36,8 @@ complete private-library OpenFAST/FAST.Farm build/regression have not been
 validated. `--verify` checks binaries and linkage, not physical correctness.
 Build jobs and runtime threads are separate settings.
 
-This is preparation of a source release, not publication of solver binaries.
-Repository creation, visibility and release tagging are separate final steps.
+This publishes the build-orchestrator source, not solver binaries.
+The source upload does not create a release tag or validate additional platforms.
 
 Run the checks from a clone:
 
